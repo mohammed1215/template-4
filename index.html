@@ -4,202 +4,213 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
+    <!-- header -->
     <header>
-      <div class="contain">
-        <div class="nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#band">Band</a></li>
-            <li><a href="#tour">tour</a></li>
-            <li><a href="#contact">contact</a></li>
-            <li class="more">
-              <a href="#">more <i class="fa fa-arrow-down"></i></a>
-              <ul class="more-1">
-                <li><a href="#">merchandise</a></li>
-                <li><a href="#">Extras</a></li>
-                <li><a href="#">media</a></li>
-              </ul>
-            </li>
-          </ul>
-          <div class="bar">
-            <i class="fa-solid fa-bars">
-              <ul>
-                <li><a href="#band">Band</a></li>
-                <li><a href="#tour">tour</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li class="more">
-                  <a href="#">merche</a>
-                </li>
-              </ul>
-            </i>
-          </div>
+      <div class="container">
+        <div class="logo"><a href="#">restaurant</a></div>
+        <ul class="navbar">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+        <div class="bar">
+          <i class="fa-solid fa-bars"
+            ><ul class="navbar">
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#">contact</a></li>
+            </ul></i
+          >
         </div>
-        <div class="search">
-          <i class="fa fa-search"
-            ><input type="search" placeholder="search"
-          /></i>
-        </div>
+        <a href="#">Book a table</a>
       </div>
     </header>
-    <div class="landing">
-      <div class="img los-angeles">
-        <div class="text">
-          <h2>Los Angeles</h2>
-          <p>We had the best time playing at Venice Beach!</p>
-        </div>
-      </div>
-      <div class="img new-york">
-        <div class="text">
-          <h2>New York</h2>
-          <p>The atmosphere in New York is lorem ipsum.</p>
-        </div>
-      </div>
-      <div class="img chicago">
-        <div class="text">
-          <h2>Chicago</h2>
-          <p>Thank you, Chicago - A night we won't forget.</p>
-        </div>
-      </div>
-    </div>
-    <div class="content" id="band">
-      <div class="container">
+    <!-- header -->
+    <!-- main -->
+    <main>
+      <section class="menu" id="menu">
         <div class="title">
-          <h2>THE BAND</h2>
-          <p>We love music</p>
-        </div>
-        <div class="text">
+          <h2>Our Special Dishes</h2>
           <p>
-            We have created a fictional band website. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt
           </p>
         </div>
-        <div class="images">
-          <div class="image">
-            <label for="picture">Name</label>
-            <img src="images/bandmember.jpg" alt="" />
+        <div class="container">
+          <div class="dishes">
+            <div class="dish">
+              <div class="img-holder">
+                <img
+                  src="/images/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <h2>Lumpia with Suace</h2>
+                <p>
+                  Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                  eiusmod tempor
+                </p>
+              </div>
+              <a href="" class="order">ORDER</a>
+            </div>
+            <div class="dish active">
+              <div class="img-holder">
+                <img src="/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h2>Fish and Veggie</h2>
+                <p>
+                  Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                  eiusmod tempor
+                </p>
+              </div>
+              <a href="" class="order">ORDER</a>
+            </div>
+            <div class="dish">
+              <div class="img-holder">
+                <img
+                  src="/images/dovile-ramoskaite-xX9SmqQCbFY-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <h2>Tofu Chili</h2>
+                <p>
+                  Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                  eiusmod tempor
+                </p>
+              </div>
+              <a href="" class="order">ORDER</a>
+            </div>
+
+            <div class="dish">
+              <div class="img-holder">
+                <img
+                  src="/images/dovile-ramoskaite-xX9SmqQCbFY-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <h2>Egg and Cocumber</h2>
+                <p>
+                  Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                  eiusmod tempor
+                </p>
+              </div>
+              <a href="" class="order">ORDER</a>
+            </div>
           </div>
-          <div class="image">
-            <label for="picture">Name</label>
-            <img src="images/bandmember.jpg" alt="" />
-          </div>
-          <div class="image">
-            <label for="picture">Name</label>
-            <img src="images/bandmember.jpg" alt="" />
+          <div class="buttons">
+            <button type="button" class="right">+</button>
+            <button type="button" class="left">-</button>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="tour" id="tour">
-      <div class="container">
+      </section>
+      <section class="about" id="about">
         <div class="title">
-          <h2>TOUR DATES</h2>
-          <p>Remember to book your tickets!</p>
+          <h2>About</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt
+          </p>
         </div>
         <div class="container">
-          <div class="boxes">
-            <div class="box">
-              <p>September</p>
-              <p>Sold out</p>
-            </div>
-            <div class="box">
-              <p>Octoper</p>
-              <p>Sold out</p>
-            </div>
-            <div class="box special-box">
-              <p>Novamber</p>
-              <p class="black-circle">3</p>
-            </div>
-          </div>
-          <div class="cards">
-            <div class="card">
-              <div class="image">
-                <img src="/images/newyork.jpg" alt="" />
-                <span></span>
-              </div>
-              <div class="text">
-                <h3>New York</h3>
-                <p>Fri 27 Nov 2016</p>
-                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button>buy tickets</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="image">
-                <img src="/images/paris.jpg" alt="" />
-                <span></span>
-              </div>
-              <div class="text">
-                <h3>New York</h3>
-                <p>Fri 27 Nov 2016</p>
-                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button>buy tickets</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="image">
-                <img src="/images/sanfran.jpg" alt="" />
-                <span></span>
+          <div class="opinions">
+            <div class="opinion">
+              <h3 class="name">Mohammed</h3>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
               </div>
 
-              <div class="text">
-                <h3>New York</h3>
-                <p>Fri 27 Nov 2016</p>
-                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button>buy tickets</button>
+              <p>good</p>
+            </div>
+            <div class="opinion">
+              <h3 class="name">Anonymose</h3>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
               </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat, esse.
+              </p>
+            </div>
+            <div class="opinion">
+              <h3 class="name">Anonymose</h3>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+                magnam cupiditate repudiandae ab qui assumenda. Nesciunt
+                consequuntur saepe consequatur ab!
+              </p>
+            </div>
+            <div class="opinion">
+              <h3 class="name">Mohammed</h3>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <p>good</p>
             </div>
           </div>
+          <div class="buttons">
+            <button class="left">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="right">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="contact" id="contact">
-      <div class="container">
-        <div class="title">
-          <h2>CONTACT</h2>
-          <p>Fan? Drop a note!</p>
-        </div>
-        <div class="content-1">
-          <ul>
-            <li>Chicago, US</li>
-            <li>Phone: +00 151515</li>
-            <li>Email: mail@mail.com</li>
-          </ul>
-          <form action="">
-            <div class="side">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-            </div>
-            <input type="text" placeholder="Message" />
-            <input type="submit" value="SEND" />
+      </section>
+      <section class="contact">
+        <div class="details">
+          <div class="title">
+            <h2>contact us</h2>
+          </div>
+          <form action="#">
+            <input type="email" placeholder="Enter Your Email" />
+            <input type="tel" placeholder="Enter Your Number" />
+            <button>Submit</button>
           </form>
         </div>
-      </div>
-    </div>
-    <img src="images/map.jpg" alt="" />
+      </section>
+    </main>
+    <!-- main -->
     <footer>
-      <div class="icons">
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-snapchat"></i
-        ><i class="fa-brands fa-pinterest-p"></i
-        ><i class="fa-brands fa-twitter"></i
-        ><i class="fa-brands fa-linkedin-in"></i>
+      <p></p>
+      <div class="links">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
       </div>
-      <p>Powered by <a href="w3.css">w3.css</a></p>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
